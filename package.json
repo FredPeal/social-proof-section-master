@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "start": "yarn build:css && node ./bin/www",
+        "build:css": "postcss css/tailwind.css -o css/style.css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^1.8.10"
+    },
+    "dependencies": {
+        "postcss-cli": "^8.0.0"
+    }
+}
