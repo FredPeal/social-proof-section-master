@@ -25,9 +25,9 @@
 
 <body>
   <div class="container mx-auto mt-32">
-    <div class="grid grid-cols-2">
-      <div class="text-dark-magneta w-4/5">
-        <div class="text-6xl font-bold mb-5">
+    <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1">
+      <div class="text-dark-magneta w-3/4 ml-8 lg:w-4/5 text-center md:text-justify lg:text-justify sm:text-justify">
+        <div class=" text-2xl md:text-6xl lg:text-6xl font-bold mb-5">
           <h3 class="leading-none">10,000+ of our users love our products.</h3>
         </div>
         <p class="text-xl">
@@ -36,8 +36,8 @@
         </p>
 
       </div>
-      <div class="wx-auto mt-6">
-        <div class="bg-light-grayish-magenta p-5 mb-5 w-4/5 rounded">
+      <div class="wx-auto mt-6 flex flex-col">
+        <div class="bg-light-grayish-magenta lg:ml-0 md:ml-0 ml-10 p-5 mb-5 w-4/5 rounded">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
@@ -57,7 +57,7 @@
             Rated 5 Stars in Report Guru
           </span>
         </div>
-        <div class="bg-light-grayish-magenta p-5 mb-5 w-4/5 rounded ml-20">
+        <div class="bg-light-grayish-magenta p-5 mb-5 w-4/5 rounded lg:ml-20 md:ml-20 sm:ml-20 ml-10">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
           <img class="inline w-5" src="images/icon-star.svg" alt="">
@@ -72,63 +72,49 @@
   </div>
 
   <div class="container mx-auto mt-20">
-    <div class="grid grid-cols-3 gap-10">
-      <div class="bg-dark-magneta rounded-lg h-64 p-5 w-auto">
-        <div class="grid grid-cols-3 gap-1">
-          <div class="col-span-1">
-            <img src="images/image-colton.jpg" class="rounded-full h-16 w-16 mt-3 ml-3 inline ml-5" alt="">
+    <div class="container mx-auto mt-20">
+      <div class="grid grid-cols-3 gap-10">
+        <div class="bg-dark-magneta rounded-lg pt-8 pb-5 px-10">
+          <div class="flex items-center">
+            <img src="images/image-colton.jpg" class="rounded-full h-16 mr-5" alt="">
+
+            <div class="flex flex-col">
+              <h5 class="text-white font-medium p-0 m-0">Colton Smith</h5>
+              <h5 class="text-soft-pink font-medium">Verified Buyer</h5>
+            </div>
           </div>
-          <div class=" mt-5 col-span-2">
-            <span class="text-white font-bold">Colton Smith</span>
-            <br>
-            <span class="text-dark-grayish-magenta">
-              Verified Buyer
-            </span>
-          </div>
-        </div>
-        <div class="text-white w-30 mt-5">
-          <p>
-            " We needed the same printed design as the one we had ordered a week prior.
+
+          <p class="text-white pt-5 pb-5 leading-tight">
+            "We needed the same printed design as the one we had ordered a week prior.
             Not only did they find the original order, but we also received it in time.
-            Excellent! "
+            Excellent!"
           </p>
         </div>
-      </div>
-      <div class="bg-dark-magneta rounded-lg h-64 p-5 w-auto mt-5">
-        <div class="grid grid-cols-3 gap-1">
-          <div class="col-span-1">
-            <img src="images/image-irene.jpg" class="rounded-full h-16 w-16 mt-3 ml-3 inline ml-5" alt="">
+        <div class="bg-dark-magneta rounded-lg pt-8 pb-5 px-10 mt-5">
+          <div class="flex items-center">
+            <img src="images/image-irene.jpg" class="rounded-full h-16 mr-5" alt="">
+
+            <div class="flex flex-col">
+              <h5 class="text-white font-medium p-0 m-0">Irene Roberts</h5>
+              <h5 class="text-soft-pink font-medium">Verified Buyer</h5>
+            </div>
           </div>
-          <div class=" mt-5 col-span-2">
-            <span class="text-white font-bold">Irene Roberts</span>
-            <br>
-            <span class="text-dark-grayish-magenta">
-              Verified Buyer
-            </span>
-          </div>
-        </div>
-        <div class="text-white w-30 mt-5">
-          <p>
+
+          <p class="text-white pt-5 pb-5 leading-tight">
             " Customer service is always excellent and very quick turn around. Completely
             delighted with the simplicity of the purchase and the speed of delivery. "
           </p>
         </div>
-      </div>
-      <div class="bg-dark-magneta rounded-lg h-64 p-5 w-auto mt-12">
-        <div class="grid grid-cols-3 gap-1">
-          <div class="col-span-1">
-            <img src="images/image-anne.jpg" class="rounded-full h-16 w-16 mt-3 ml-3 inline ml-5" alt="">
+        <div class="bg-dark-magneta rounded-lg pt-8 pb-5 px-10 mt-10">
+          <div class="flex items-center">
+            <img src="images/image-anne.jpg" class="rounded-full h-16 mr-5" alt="">
+            <div class="flex flex-col">
+              <h5 class="text-white font-medium p-0 m-0">Anne Wallace</h5>
+              <h5 class="text-soft-pink font-medium">Verified Buyer</h5>
+            </div>
           </div>
-          <div class=" mt-5 col-span-2">
-            <span class="text-white font-bold">Anne Wallace</span>
-            <br>
-            <span class="text-dark-grayish-magenta">
-              Verified Buyer
-            </span>
-          </div>
-        </div>
-        <div class="text-white w-30 mt-5">
-          <p>
+
+          <p class="text-white pt-5 pb-5 leading-tight">
             " Put an order with this company and can only praise them for the very high
             standard. Will definitely use them again and recommend them to everyone! "
           </p>
